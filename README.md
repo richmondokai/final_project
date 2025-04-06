@@ -1,16 +1,47 @@
 # flutter_todoapplication
 
-A new Flutter project.
+A feature-rich Flutter Todo application with task management, categories, priorities, and due dates.
+
+## Features
+
+- ✅ **Task Management**
+  - Create, edit, and delete tasks
+  - Mark tasks as complete
+  - Set due dates and reminders
+  - Add detailed descriptions and notes
+
+- 🏷️ **Categories & Priorities**
+  - Organize tasks by customizable categories
+  - Set priority levels (High/Medium/Low)
+  - Color-coded visual indicators
+
+- 🔍 **Smart Filtering**
+  - Filter by status (All/Active/Completed)
+  - Filter by category, priority, or due date
+  - Search functionality
+
+- 📅 **Due Date Management**
+  - Visual indicators for overdue/upcoming tasks
+  - Sort by due date
+  - "Due Soon" and "Overdue" highlighting
+
+- 🔄 **Data Persistence**
+  - Local storage using SharedPreferences
+  - Robust error handling
+  - Data import/export capability
+
+## Technical Stack
+
+- **Framework**: Flutter
+- **State Management**: Provider
+- **Local Storage**: SharedPreferences
+- **Architecture**: Clean, modular structure
+- **Dependency Management**: Pub
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter SDK (latest stable version)
+- Dart SDK
+- Android Studio/VSCode with Flutter plugin
